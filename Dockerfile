@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ansible-automation-platform/ee-minimal-rhel8:2.17.5-4
+FROM registry.redhat.io/ansible-automation-platform/ee-minimal-rhel8@sha256:b36188c3bcfceda268af3fb156b9ec854e9352355db7b46d927ba7a9384b2ffd
 
 # Install base dependencies
 RUN microdnf install -y \
